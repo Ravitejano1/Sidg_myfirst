@@ -1,0 +1,21 @@
+#!/bin/bash
+#Function to display the date and Strings by inserting sleep mode between 
+execution
+
+showdate(){
+
+echo "======================"
+date +%F
+echo "======================="
+
+}
+#invoking a function
+
+showdate
+echo "this is sample text"
+sleep 2
+
+showdate
+echo "this is appended text"
+sleep 2
+

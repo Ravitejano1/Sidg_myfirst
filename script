@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+function showParams(){
+ 
+  
+  echo "I am learning $2 now, then I would like to learn $1"
+
+}
+
+showParams Linux Unix
+
